@@ -1,0 +1,942 @@
+* [33mbec089f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Deleted README
+* [33m957cc17[m Initial commit
+*   [33mf9db998[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m Merge pull request #3451 from thiswillbeyourgithub/fix-theme
+[32m|[m[33m\[m  
+[32m|[m * [33mfb735bf[m fix text selection colors for light and dark themes
+[32m|[m * [33m197d9db[m add TOC background color variable for contrast theme
+[32m|[m * [33m2f35b03[m dropdown in top menu was not respecting theme
+[32m|[m * [33m851a2a9[m fix footer that would stay black in contrast light theme
+[32m|[m * [33m3bb0949[m fix: selected mast head can become black on black in dark mode
+[32m|[m[32m/[m  
+*   [33mc45c640[m Merge pull request #3439 from Geordanny1/selected-masterhead
+[34m|[m[35m\[m  
+[34m|[m * [33m4efd520[m Update site theme to 'default'
+[34m|[m * [33md53208a[m I added the "selected" once you are in the link they link to. Giving the efect of being selected once you are in that page.
+[34m|[m[34m/[m  
+*   [33m090a6ce[m Merge pull request #3437 from Geordanny1/more-themes
+[36m|[m[1;31m\[m  
+[36m|[m * [33m5b25b92[m Revert site_theme to default
+[36m|[m * [33m85a3f01[m add suport for more themes
+[36m|[m[36m/[m  
+* [33m84d57c5[m Close #3394, remove brand color override.
+* [33m5727293[m Update workflow with permissions
+* [33m5eb4a6c[m #3295 update Leaflet support in map
+* [33m20166dc[m #3295 plotly bumped and move to NPM
+*   [33ma660e45[m Merge pull request #3391 from hosiet/pr-fix-page-bottom-extra-space
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33ma82ff9c[m Do not enable duplicated bottom space when js is enabled
+* [1;33m|[m   [33m39205ca[m Merge pull request #3393 from lukestein/master
+[1;33m|[m[1;35m\[m [1;33m\[m  
+[1;33m|[m [1;35m|[m[1;33m/[m  
+[1;33m|[m[1;33m/[m[1;35m|[m   
+[1;33m|[m * [33m65d9149[m Add SSRN and Zotero "social media"
+[1;33m|[m * [33m3b86066[m Ignore .DS_Store files created by MacOS
+[1;33m|[m[1;33m/[m  
+*   [33me453069[m Merge pull request #3387 from jarrensj/fix/hamburger-theme-colors
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m7a680fe[m fix: hamburger menu theme switching
+[1;36m|[m[1;36m/[m  
+*   [33m8746768[m Merge pull request #3382 from sandan/patch-1
+[32m|[m[33m\[m  
+[32m|[m * [33m9871059[m Fix typo in README.md regarding DevContainer
+[32m|[m[32m/[m  
+*   [33mc07d947[m Merge pull request #3358 from hosiet/pr-remove-ancient-meta-tags
+[34m|[m[35m\[m  
+[34m|[m * [33m2938af8[m _includes/head.html: Remove meta tags HandheldFriendly, MobileOptimized
+[34m|[m[34m/[m  
+*   [33m2ffa540[m Merge pull request #3356 from hosiet/pr-fix-html-validation-div-in-button
+[36m|[m[1;31m\[m  
+[36m|[m * [33m971972b[m navicon: Use span instead of div inside button element
+[36m|[m[36m/[m  
+*   [33m4329a63[m Merge pull request #3354 from hosiet/pr-remove-meta-http-equiv-cleartype-tag
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33mb5542fa[m _includes/head.html: Drop useless meta http-equiv="cleartype" tag
+[1;32m|[m[1;32m/[m  
+* [33m0c38d8b[m Update order, correct syntax
+*   [33m75fca9f[m Merge pull request #3347 from thiswillbeyourgithub/add-mastodon-share-button
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33me49832a[m minor: reorder mastodon button alphabetically
+[1;34m|[m * [33m23dc9d5[m fix: background color behind mastodon share button
+[1;34m|[m * [33m7ff8452[m feat: add mastodon share button
+[1;34m|[m[1;34m/[m  
+*   [33m927d725[m Merge pull request #3339 from thiswillbeyourgithub/fix-http-to-https
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m10b390e[m fix: use https instead of http
+[1;36m|[m[1;36m/[m  
+* [33m2022adb[m #3302 Clarify behavior of Jekyll serve command regarding file changes.
+* [33m2f67ec1[m Update usage of description from config, close #3291
+* [33m7bb2b70[m RM unused images
+* [33m55fe397[m #3249 update image used by README
+* [33m4962bc1[m #3249 update theme examples
+*   [33m06c0215[m Merge pull request #3290 from ITX351/fix-docker-config-syntax
+[32m|[m[33m\[m  
+[32m|[m * [33mf6d7f2c[m Fix Docker config and revert PR #3029 changes
+[32m|[m[32m/[m  
+* [33m0a00218[m MV CSS into SCSS, use theme var variables, close #3248
+* [33mbfec63d[m Update mix of default light-gray
+*   [33m520f7b7[m Merge pull request #3236 from Gabri110/main
+[34m|[m[35m\[m  
+[34m|[m * [33mdcf89f7[m Ameliorated the colour choices for the footbar
+[34m|[m * [33m4ba67c3[m Fixed link colour
+[34m|[m * [33m24d3e2b[m Added the option to toggle between themes and the new theme 'air'
+[34m|[m[34m/[m  
+*   [33m5e8dc5e[m Merge pull request #3231 from vigneshragupathy/fix-disqus-comment
+[36m|[m[1;31m\[m  
+[36m|[m * [33md12faab[m Fix Disqus comments integration by ensuring the include statement is correctly placed
+[36m|[m[36m/[m  
+* [33m02c8243[m Update publications.py
+* [33m5eb0cd8[m Update scrape_talks.yml
+*   [33mb225a3a[m Merge pull request #3221 from Gabri110/main
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m0bc22f6[m Update _config.yml
+[1;32m|[m * [33mb7f6f53[m Added inspire-hep logo to author-profile.html
+[1;32m|[m * [33mb9b9ac0[m Added inspire-hep logo to _config.yml
+[1;32m|[m[1;32m/[m  
+*   [33mf746377[m Merge pull request #3203 from hosiet/pr-fix-footer-last-updated-template
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33mde4613b[m _includes/footer.html: Fix site last updated template
+[1;34m|[m[1;34m/[m  
+*   [33m9b33e6e[m Merge pull request #3171 from quangbhdang/master
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m8bc5ee1[m Merge pull request #1 from quangbhdang/quangbhdang-patch-1
+[1;36m|[m[1;36m/[m[33m|[m 
+[1;36m|[m * [33mf6f6127[m Update .gitignore to avoid not including change in _sass/vendor
+[1;36m|[m[1;36m/[m  
+* [33m9e70db1[m #3151 adjust order that scripts are loaded
+* [33mb9b8e17[m #3151, #3138 better wrapping of Plotly
+* [33m25484a8[m #3151 update avatar priority
+* [33mcfa418d[m #3151 defer loading
+* [33m0104eca[m Update aria of toggle
+* [33mb014e41[m #3151 updated role of anchor
+* [33m54ce74b[m #3151 tag theme switch link as nofollow
+* [33m6d254c5[m #3151 add async to scripts
+* [33m085919b[m Minor clean-up to _main.js, plus some more comments
+* [33mc4a2829[m Remove deprecated package, close #2428
+*   [33md1b2c8e[m Merge branch 'master' of https://github.com/academicpages/academicpages.github.io
+[34m|[m[35m\[m  
+[34m|[m *   [33ma3a2936[m Merge pull request #3142 from ferrolho/hf/dev
+[34m|[m [36m|[m[1;31m\[m  
+[34m|[m [36m|[m * [33m6cb2f0c[m Fix theme toggle issue by defining browserPref before use
+[34m|[m [36m|[m[36m/[m  
+* [36m/[m [33m692cad4[m Close #3096 with addition of Artstation, with code from @itsdombo
+[36m|[m[36m/[m  
+* [33mb99c36e[m Close #3137 with support for Plotly and examples
+* [33m7f21c2d[m #3137 initial code for Plotly support
+* [33m552e9af[m Updates to the template documentation
+* [33ma3af681[m Close #2303 with updated information on Mermaid diagram
+* [33m742a202[m #2303 correct syntax error
+* [33mca43bb5[m #2303 syntax error in Markdown
+*   [33mc9ffa9f[m Merge branch 'master' of https://github.com/academicpages/academicpages.github.io
+[1;32m|[m[1;33m\[m  
+[1;32m|[m *   [33m96880f4[m Merge pull request #3130 from shivamtawari/patch-1
+[1;32m|[m [1;34m|[m[1;35m\[m  
+[1;32m|[m [1;34m|[m * [33m87ab447[m Update talks.py
+[1;32m|[m * [1;35m|[m   [33m443d4cc[m Merge pull request #3129 from shivamtawari/patch-2
+[1;32m|[m [1;35m|[m[31m\[m [1;35m\[m  
+[1;32m|[m [1;35m|[m [31m|[m[1;35m/[m  
+[1;32m|[m [1;35m|[m[1;35m/[m[31m|[m   
+[1;32m|[m [1;35m|[m * [33m6bfc213[m Update pubsFromBib.py
+[1;32m|[m [1;35m|[m[1;35m/[m  
+* [1;35m/[m [33mbaea66d[m #2303 adding Mermaid diagram
+[1;35m|[m[1;35m/[m  
+* [33m838c072[m #3062 update MathJax oddities
+* [33m61caa53[m + TOC in guide
+* [33md9293eb[m #3062 + demo publication with MathJax
+*   [33m0f054bf[m Merge branch 'master' of https://github.com/academicpages/academicpages.github.io
+[32m|[m[33m\[m  
+[32m|[m *   [33me833c7a[m Merge pull request #3052 from MPK1/fix-icon-width
+[32m|[m [34m|[m[35m\[m  
+[32m|[m [34m|[m * [33mfac3272[m fix icon classes
+[32m|[m [34m|[m[34m/[m  
+* [34m/[m [33m286bf77[m #3097 update SEO organization, add og_description to _config.yml
+[34m|[m[34m/[m  
+*   [33ma2dee16[m Merge branch 'master' of https://github.com/academicpages/academicpages.github.io
+[36m|[m[1;31m\[m  
+[36m|[m *   [33md4e74ea[m Merge pull request #3029 from nathanpainchaud/fix/docker-serve-url
+[36m|[m [1;32m|[m[1;33m\[m  
+[36m|[m [1;32m|[m * [33m6f5947f[m Remove override of `JEKYLL_ENV` env var and `url` config option
+* [1;32m|[m [1;33m|[m [33m04fc70a[m Minor adjustments to README, .gitignore
+[1;32m|[m[1;32m/[m [1;33m/[m  
+* [1;33m/[m [33m28274dc[m #3019 fixes width of the sidebar
+[1;33m|[m[1;33m/[m  
+* [33mbd1b35d[m Update bug_report.md
+*   [33mef8e08b[m Merge pull request #3004 from msk-nightly/master
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33mb507858[m Update _config.yml
+[1;34m|[m * [33ma9c5bd0[m Update author-profile.html
+[1;34m|[m * [33me9dd077[m Update _config.yml
+[1;34m|[m * [33m3ee0215[m Update README.md
+[1;34m|[m * [33m1e56b29[m Update author-profile.html
+* [1;35m|[m   [33m0778a24[m Merge pull request #2981 from adriandavidauer/fix_docker
+[1;36m|[m[31m\[m [1;35m\[m  
+[1;36m|[m * [1;35m|[m [33m81b71e3[m Update README.md
+[1;36m|[m * [1;35m|[m [33m1c57822[m Update devcontainer.json
+[1;36m|[m * [1;35m|[m [33m5ba6062[m adding Port to DevContainer and added description in README
+[1;36m|[m * [1;35m|[m [33m37a2589[m added devContainer Support and moved all Container related Issues intto the Dockerfile
+[1;36m|[m * [1;35m|[m [33mdea5087[m added chmod to docu and connection_pool to gemfile
+* [31m|[m [1;35m|[m   [33m31bdab4[m Merge pull request #3001 from librautoo/master
+[1;35m|[m[33m\[m [31m\[m [1;35m\[m  
+[1;35m|[m [33m|[m[1;35m_[m[31m|[m[1;35m/[m  
+[1;35m|[m[1;35m/[m[33m|[m [31m|[m   
+[1;35m|[m * [31m|[m [33m08ee206[m Update _config.yml
+[1;35m|[m[1;35m/[m [31m/[m  
+* [31m|[m   [33m71ad192[m Merge pull request #2990 from Samir-Rashid/more-theme-fixes
+[31m|[m[35m\[m [31m\[m  
+[31m|[m [35m|[m[31m/[m  
+[31m|[m[31m/[m[35m|[m   
+[31m|[m * [33m1ea82d9[m js: upload updated compiled js blob
+[31m|[m * [33m1de3d66[m js: fix lightbox popup image previews
+[31m|[m * [33m259ee5a[m js: fix smoothscroll header offset, fix changing URL
+[31m|[m * [33m0e160dc[m theme: respect user browser light/dark preference
+[31m|[m * [33m3d308f4[m fix figcaption dark css
+[31m|[m[31m/[m  
+*   [33mc755f3e[m Merge pull request #2952 from Samir-Rashid/fix-theme-color-regressions
+[36m|[m[1;31m\[m  
+[36m|[m * [33mb755aea[m Fix theme color regressions
+[36m|[m[36m/[m  
+*   [33m3d078df[m Merge pull request #2923 from FHYQ-Dong/master
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33maf16ab9[m add `Download Bibtex` link in publication items and publication page. if the metadata of .md files contains `bibtexurl` item, then a link pointing to that url will be added. see `_publications/2009-10-01-paper-title-number-1.md`.
+[1;32m|[m[1;32m/[m  
+* [33mf40366b[m Close #2894, add Bluesky to social sharing, update order
+* [33m6932e88[m #2883 update navigation, add documentation
+*   [33mec68bcf[m Merge pull request #2901 from chenyuan99/parent-feature-#2883
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33m5ca2d65[m feat: add json csv page and related scripts
+* [1;35m|[m   [33m89773fc[m Merge pull request #2900 from SijieFu/theme-switch
+[1;35m|[m[31m\[m [1;35m\[m  
+[1;35m|[m [31m|[m[1;35m/[m  
+[1;35m|[m[1;35m/[m[31m|[m   
+[1;35m|[m * [33m976130b[m allow theme change on client side; a theme toggle button is added to the navbar
+[1;35m|[m * [33m173be24[m deprecate $masthead-height variable, use automatic padding instead in case of height overflows
+[1;35m|[m[1;35m/[m  
+*   [33m176e565[m Merge pull request #2871 from mbrz97/fixMobileProfile
+[32m|[m[33m\[m  
+[32m|[m * [33mee1d939[m Update _sidebar.scss
+[32m|[m[32m/[m  
+*   [33m7729f66[m Merge pull request #2869 from AustinTI/patch-1
+[34m|[m[35m\[m  
+[34m|[m * [33m1a3fc5a[m Update README.md
+[34m|[m[34m/[m  
+* [33mbf65e10[m Automated update of talk locations
+* [33mc2921a8[m #2865 Try to add a bit of error handling
+* [33m313e1dd[m Close #30, update stand-alone script
+* [33m6feb7ab[m Automated update of talk locations
+*   [33mfaf1c37[m Merge branch 'master' of https://github.com/academicpages/academicpages.github.io
+[36m|[m[1;31m\[m  
+[36m|[m * [33mdd6e22e[m Automated update of talk locations
+* [1;31m|[m [33mc2398c3[m #30 fix geolocation bug
+[1;31m|[m[1;31m/[m  
+*   [33m96cfe6a[m Merge branch 'master' of https://github.com/academicpages/academicpages.github.io
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m524f856[m Automated update of talk locations
+* [1;33m|[m [33mfbec359[m #30 updated talk descriptions
+[1;33m|[m[1;33m/[m  
+*   [33m30e8e0f[m Merge branch 'master' of https://github.com/academicpages/academicpages.github.io
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33mf8b826f[m Automated update of talk locations
+* [1;35m|[m [33mdab5443[m #2828 update notebook with documentation
+[1;35m|[m[1;35m/[m  
+* [33m13df8d3[m #2828 address runner error
+* [33m6510ff7[m #2828 update kernel to python3
+* [33m4f527d6[m Close #2841, with code from @gopisivakanth
+*   [33m2ac9022[m Merge branch 'master' of https://github.com/academicpages/academicpages.github.io
+[1;36m|[m[31m\[m  
+[1;36m|[m *   [33me7b600b[m Merge pull request #2814 from librautoo/master
+[1;36m|[m [32m|[m[33m\[m  
+[1;36m|[m [32m|[m * [33mef6c1ce[m update readme file
+[1;36m|[m [32m|[m[32m/[m  
+[1;36m|[m *   [33md04ee55[m Merge pull request #2811 from hosiet/pr-fix-favicon
+[1;36m|[m [34m|[m[35m\[m  
+[1;36m|[m [34m|[m * [33mb7379ff[m Fix handling of favicon
+[1;36m|[m [34m|[m[34m/[m  
+* [34m/[m [33m660a578[m Exclude publications from category-list, close #2820
+[34m|[m[34m/[m  
+* [33m7f94030[m Examples w/o bookmarks bar
+* [33mc32e4b4[m Alphabetize the order of hte settings
+* [33m78f3351[m #851 add the theme previews
+*   [33m4594e4b[m Merge branch '#137'
+[36m|[m[1;31m\[m  
+[36m|[m * [33m0ccd873[m #137, #851, #911, #1031 cleaning up remainder of direct references to theme colors
+[36m|[m * [33m83a76ed[m #137, #911 sync variables between themes
+[36m|[m * [33m75d868b[m #137, #851, #911, #1031 dark theme that can be set via _config.yml
+[36m|[m * [33m2363012[m Address issues with order
+[36m|[m * [33m077a671[m #137 update to include theme as setting
+[36m|[m * [33me9ff0d0[m #137 pull default theme into new directory
+[36m|[m * [33mefa7892[m Remove variables reference
+[36m|[m * [33md27ccb0[m #137 consolidate into _themes.scss
+[36m|[m * [33me9b3774[m Update organization of _sass
+[36m|[m * [33m122bd14[m Update location for the layout
+[36m|[m * [33m22397f7[m #137 correct the variable name
+[36m|[m * [33mda4b443[m Consolidate animations
+[36m|[m * [33me2b4ca2[m Modernize syntax
+[36m|[m * [33m57346e4[m Update order of color codes
+[36m|[m * [33ma514a05[m #137 updates for links
+[36m|[m * [33m8b4b631[m #137 update base colors
+[36m|[m * [33ma4acfd9[m #137 update code
+[36m|[m * [33maaf064b[m #137 updated border-color
+[36m|[m * [33m438e61c[m #137  start progress on themes
+* [1;31m|[m [33m47b944e[m Update README.md
+* [1;31m|[m [33m509397d[m Update README.md
+* [1;31m|[m [33m3f946c5[m Update README.md
+[1;31m|[m[1;31m/[m  
+* [33m1ebab2b[m Add GA updates to documentation, Close #265
+*   [33m460ac0c[m Merge pull request #2799 from HirokiHamaguchi/master
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33mb9e4c76[m Fix site-nav problem in jquery.greedy-navigation.js
+[1;32m|[m * [33m71780d5[m Adjust right-sidebar width to fix the spacing problem
+[1;32m|[m * [33mbc79d8a[m Fix the clock icons by fa-clock
+[1;32m|[m * [33m95e60fa[m Fix link in talkmap.html
+[1;32m|[m * [33m837e279[m Fix typos of GitHub
+[1;32m|[m[1;32m/[m  
+*   [33me53c946[m Merge pull request #2797 from non-det-alle/docker-fix
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33mcd9f918[m Fix running locally with Docker
+* [1;35m|[m [33md021750[m #2792 fix bad path
+[1;35m|[m[1;35m/[m  
+*   [33m1acca92[m Merge pull request #2717 from dimitra-maoutsa/master
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m26c37c5[m Update _config.yml
+[1;36m|[m * [33m7be61a3[m Update _config.yml
+[1;36m|[m * [33ma9501b9[m Create scrape_talks.yml
+[1;36m|[m[1;36m/[m  
+*   [33m15c16b8[m Merge pull request #2713 from jacob-thompson/x-twitter
+[32m|[m[33m\[m  
+[32m|[m * [33m1ca871f[m replace Twitter share button with X share button
+* [33m|[m   [33mbe55d03[m Merge pull request #2712 from jacob-thompson/master
+[33m|[m[35m\[m [33m\[m  
+[33m|[m [35m|[m[33m/[m  
+[33m|[m[33m/[m[35m|[m   
+[33m|[m * [33mcfb4d8a[m fix Sitemap grammatical error
+[33m|[m[33m/[m  
+*   [33m77b7368[m Merge pull request #2690 from FahimFBA/issue-2689
+[36m|[m[1;31m\[m  
+[36m|[m * [33ma290b4d[m fix: typo and extra line break
+[36m|[m[36m/[m  
+*   [33me2a7acf[m Merge pull request #2688 from FahimFBA/issue-2687
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33mbd6cfdb[m add: docker command related instructions for Windows users
+[1;32m|[m[1;32m/[m  
+* [33m4b94adc[m Close #2637 toggle the wrapper on resize
+*   [33ma932981[m Merge pull request #2651 from oikos99/fix_link_contrast
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33m77b1d9d[m improved link color contrast (updated color)
+[1;34m|[m * [33mb42f6d1[m improved link color contrast
+[1;34m|[m[1;34m/[m  
+*   [33mfb54e7a[m Merge pull request #2645 from tomrannosaurus/patch-1
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33mbae6977[m Update _config.yml
+[1;36m|[m * [33mc0249a2[m Update Gemfile
+[1;36m|[m[1;36m/[m  
+*   [33m79f5f6f[m Merge pull request #2627 from mecaneer23/patch-1
+[32m|[m[33m\[m  
+[32m|[m * [33m0f00a7a[m fix: typo
+[32m|[m[32m/[m  
+*   [33m04d9b5f[m Merge pull request #2611 from TankTechnology/fix-zhihu-url
+[34m|[m[35m\[m  
+[34m|[m * [33m2eea7b8[m Fix typo in Zhihu URL protocol in
+[34m|[m[34m/[m  
+* [33me9f9c45[m #2591 clarify URL in config
+* [33md810cdf[m Additional pointers for help
+* [33mf53c209[m Update README with example
+* [33m61109fe[m Close #2493 Update for Bing crawler
+* [33mdf10002[m Adjustments to the about
+*   [33m77e6eb4[m Merge pull request #2551 from dtortorella/master
+[36m|[m[1;31m\[m  
+[36m|[m * [33m31ae7dc[m Add `scopus` in academic websites
+[36m|[m[36m/[m  
+*   [33m8d09856[m Merge pull request #2535 from opasche/archive-single-slidesurl-fix
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33md23a5e9[m Update archive-single.html
+[1;32m|[m[1;32m/[m  
+*   [33ma1a88b6[m Merge pull request #2489 from zoelesv/master
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33md493911[m Update Dockerfile
+[1;34m|[m[1;34m/[m  
+* [33m9ec003f[m #1093 MV notebook to generator directory
+*   [33m392368c[m Merge branch 'master' of https://github.com/academicpages/academicpages.github.io
+[1;36m|[m[31m\[m  
+[1;36m|[m *   [33mb9a77f9[m Merge pull request #2480 from x-zang/patch-1
+[1;36m|[m [32m|[m[33m\[m  
+[1;36m|[m [32m|[m * [33m784887a[m Update author-profile.html
+[1;36m|[m [32m|[m[32m/[m  
+[1;36m|[m *   [33m73d65ff[m Merge pull request #2467 from c-martinez/harvest-orcid
+[1;36m|[m [34m|[m[35m\[m  
+[1;36m|[m [34m|[m * [33m31a8ce7[m Add notebook to fetch publication information from orcid
+[1;36m|[m [34m|[m[34m/[m  
+[1;36m|[m *   [33md8c7955[m Merge pull request #2451 from Samir-Rashid/fix-padding-misalignment
+[1;36m|[m [36m|[m[1;31m\[m  
+[1;36m|[m [36m|[m * [33m3f6ba41[m Fix misalignment of navigation bar with post body
+[1;36m|[m [36m|[m * [33mcbc57c4[m Reduce excessive footer padding
+[1;36m|[m * [1;31m|[m   [33m05d1019[m Merge pull request #2450 from Samir-Rashid/fix-toc-width
+[1;36m|[m [1;31m|[m[1;33m\[m [1;31m\[m  
+[1;36m|[m [1;31m|[m [1;33m|[m[1;31m/[m  
+[1;36m|[m [1;31m|[m[1;31m/[m[1;33m|[m   
+[1;36m|[m [1;31m|[m * [33ma543542[m Fix toc crop (#221)
+[1;36m|[m [1;31m|[m[1;31m/[m  
+* [1;31m/[m [33mb90e6a3[m Closes #2469 with update to only use username
+[1;31m|[m[1;31m/[m  
+* [33mdc499dc[m #828 adjustments to account for GitHub Pages limitations
+* [33m50001df[m #828 different format string
+* [33m3ddeda5[m Closes #828 with update to put the pages last update in the footer.
+* [33m9eec020[m Minor formatting
+*   [33m1dcebd1[m Merge branch 'master' of https://github.com/academicpages/academicpages.github.io
+[1;34m|[m[1;35m\[m  
+[1;34m|[m *   [33m7aa6181[m Merge pull request #2445 from Samir-Rashid/fix-custom-comments
+[1;34m|[m [1;36m|[m[31m\[m  
+[1;34m|[m [1;36m|[m * [33me37c098[m bug: comments appear at bottom of page
+[1;34m|[m * [31m|[m [33mef518d5[m Update README.md
+[1;34m|[m * [31m|[m   [33m9639cbc[m Merge pull request #2441 from abcsds/master
+[1;34m|[m [31m|[m[33m\[m [31m\[m  
+[1;34m|[m [31m|[m [33m|[m[31m/[m  
+[1;34m|[m [31m|[m[31m/[m[33m|[m   
+[1;34m|[m [31m|[m * [33m40e3c2b[m Add a dockerfile
+[1;34m|[m [31m|[m[31m/[m  
+* [31m/[m [33m66e2f20[m Closes #146 with information the details HTML tag
+[31m|[m[31m/[m  
+* [33m0d4e024[m Closes #2287, #534 with updates to documentation, better emoji generation
+* [33m02973e0[m Closes #1975 RM stickyfill in favor of native browser support
+* [33ma683245[m #1975 update smooth scroll to NPM
+* [33mcd15f4a[m #1975 update magnific-popup to NPM
+* [33m9706914[m #1975 update fitvids to NPM
+* [33m6c98d76[m #1975 cleaning up the gem files a bit
+* [33m95118f6[m Update README.md
+* [33m2fe408f[m Update README.md
+* [33m4b8421f[m Update README.md
+* [33made2768[m Update README.md
+* [33m4189d06[m Update README.md
+* [33me63ceb1[m Update README.md
+*   [33m3af723c[m Merge pull request #2419 from edbrito-swdev/fix-youtube-url-generation
+[34m|[m[35m\[m  
+[34m|[m * [33m803166b[m Fixing YouTube URL generation in author-profile.html
+[34m|[m[34m/[m  
+* [33m6d5d9a7[m Update README.md
+*   [33m823648a[m Merge pull request #2376 from 02hyc/master
+[36m|[m[1;31m\[m  
+[36m|[m * [33m0c49f64[m fix: lastfm url
+[36m|[m[36m/[m  
+* [33m4097d7e[m Closes #48 with a more general and customizable approach
+* [33maff2053[m Alphabetize the excludes
+* [33m90d592a[m #2318 updating documentation a bit
+* [33m09e3161[m #2316 update padding
+* [33ma5ede61[m Update README.md
+*   [33m23c37c2[m Merge pull request #2193 from zarela/updates-readme
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m08ffadc[m Adds commands for MacOS
+[1;32m|[m[1;32m/[m  
+*   [33m5dee723[m Merge pull request #2144 from YanY-Henry/tmp
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33m3d89da7[m Add Chinese (both simplified and traditional) to ui-text.yml
+[1;34m|[m[1;34m/[m  
+*   [33mac2c224[m Merge pull request #2134 from manuelhaussmann/patch-1
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m980e531[m Update _config.yml
+[1;36m|[m[1;36m/[m  
+* [33m5c56699[m Fix typo, modifications to style
+*   [33m1b2f049[m Merge pull request #2126 from saravan2/slides
+[32m|[m[33m\[m  
+[32m|[m * [33mebbb512[m Addressed PR #2126 review comments
+[32m|[m * [33m0b2779c[m Support for displaying slides on publication pages
+[32m|[m[32m/[m  
+*   [33mc553fdb[m Merge pull request #2122 from thiagorr162/master
+[34m|[m[35m\[m  
+[34m|[m * [33m24ccc83[m Add support to semantic scholar in author profile
+[34m|[m[34m/[m  
+*   [33m7525c73[m Merge pull request #2097 from dgrahn/master
+[36m|[m[1;31m\[m  
+[36m|[m * [33m9c819bb[m Fix #1920 by allowing text to wrap
+* [1;31m|[m   [33mf0e0910[m Merge pull request #2096 from dgrahn/patch-1
+[1;31m|[m[1;33m\[m [1;31m\[m  
+[1;31m|[m [1;33m|[m[1;31m/[m  
+[1;31m|[m[1;31m/[m[1;33m|[m   
+[1;31m|[m * [33m7d344d6[m Fix typo in build-essential package name.
+[1;31m|[m[1;31m/[m  
+* [33mab0b91f[m Update casing of template name
+* [33me119d80[m Adjust variable name to prevent confusion
+* [33mcf726b0[m Closes #2055 with adjustment to masthead-height
+* [33m0a941a0[m #2061 Update README with note on dependencies
+* [33md84c5b5[m Closes #1917 with with icon, FA bump to 6.5.2
+*   [33mfb28163[m Merge pull request #2025 from MaxGalindo150/max-galindo
+[1;34m|[m[1;35m\[m  
+[1;34m|[m *   [33m6495325[m Merge branch 'master' into max-galindo
+[1;34m|[m [1;36m|[m[1;34m\[m  
+[1;34m|[m [1;36m|[m[1;34m/[m  
+[1;34m|[m[1;34m/[m[1;36m|[m   
+* [1;36m|[m [33m2765f55[m Closes #2029 with update to sidebar
+[31m|[m * [33m01835ab[m Add scroll to sidebar and adjust media query for screen adaptability
+[31m|[m * [33m3f5e63b[m scroll in sidebar
+[31m|[m * [33m4e34246[m scroll in sidebar
+[31m|[m[31m/[m  
+* [33m2ae25fa[m Closes #1999
+* [33m4a9aa07[m Fix typo
+* [33ma1360e9[m Closes #1970 with responsive element
+* [33m93000c2[m #1975 version updates, manage jQuery from npm
+* [33m185fac4[m Closes #339 with a fixed masthead
+* [33m2d2b04e[m #1975 ignore files created by npm
+* [33m0505d84[m Make it clearer where the footnotes are
+* [33maab5875[m RM old development override
+* [33m2a269d2[m #1935 clean-up the footer follow a bit
+* [33m93a8ea1[m Closes #1936 with setting to hide RSS feed
+* [33me24ceb0[m Closes #1972, update Markdown documentation
+*   [33m76b375b[m Merge pull request #1956 from SukkaW/replace-polyfill-io
+[32m|[m[33m\[m  
+[32m|[m * [33ma110873[m Replace `polyfill.io`
+[32m|[m[32m/[m  
+*   [33m7f0c67e[m Merge pull request #1939 from johnhandleyd/spanish_ui-text
+[34m|[m[35m\[m  
+[34m|[m * [33med7430a[m added missing spanish translations and updated some of the previous ones on ui-text-yml
+[34m|[m[34m/[m  
+* [33m1193c5f[m Closes #820 with updated style
+* [33md9044b2[m Closes #693 with updates to documentation and location of citation
+* [33m3dd6b07[m Closes #1905 with updates to documentation
+* [33m81643f0[m  #1153 add Zhihu
+* [33m45ea6b2[m #33, #1919 Possible missing template fix, bump MathJax to 3.0
+* [33md340552[m Closes #45 with an update to the CV generator
+* [33m3a9f6e8[m Closes #1773 with update to HTML
+* [33mad17100[m #1041 allow links to wrap
+* [33mc74ca01[m #462 update inline documentation
+* [33mdbb87f6[m Closes #1671 with a new favicon
+*   [33mccfc69b[m Merge branch 'master' of https://github.com/academicpages/academicpages.github.io
+[36m|[m[1;31m\[m  
+[36m|[m *   [33m27a68c8[m Merge pull request #449 from sigma67/bibencoding
+[36m|[m [1;32m|[m[1;33m\[m  
+[36m|[m [1;32m|[m * [33mfe72c9c[m Fix encoding issue with bib files
+* [1;32m|[m [1;33m|[m [33mabb7605[m Closes #1911 with update to Academicons
+[1;32m|[m[1;32m/[m [1;33m/[m  
+* [1;33m|[m [33m5cd3097[m #244, #1600, #1917 update font awesome to v6, add icons
+* [1;33m|[m [33m793cfc6[m Closes #271 with addition of arXiv
+* [1;33m|[m [33mdfb7691[m Adjustments to Kaggle link
+* [1;33m|[m [33m6d8c8e9[m Closes #696 with new Kaggle link
+* [1;33m|[m [33m066dc22[m Add Mastodon to social media
+* [1;33m|[m [33m655d2db[m Streamline config organization for new users
+* [1;33m|[m [33m56a6779[m Correct syntax
+* [1;33m|[m [33m8177dc4[m Update README
+* [1;33m|[m [33md549788[m Update README.md
+* [1;33m|[m [33mea37a17[m + Syntax highlighting example
+* [1;33m|[m   [33m5d2e39d[m Merge pull request #389 from jayrobwilliams/fontawesome-syntax
+[1;34m|[m[1;35m\[m [1;33m\[m  
+[1;34m|[m * [1;33m|[m [33mf776953[m fix font awesome code icon in syntax box
+[1;34m|[m [1;33m|[m[1;33m/[m  
+* [1;33m|[m   [33m9a753e1[m Merge pull request #466 from naveenarun/orcid_color
+[1;36m|[m[31m\[m [1;33m\[m  
+[1;36m|[m * [1;33m|[m [33m40840c6[m change orcid color
+[1;36m|[m [1;33m|[m[1;33m/[m  
+* [1;33m|[m   [33m52f0dcc[m Merge pull request #273 from stevenbitner/patch-2
+[32m|[m[33m\[m [1;33m\[m  
+[32m|[m * [1;33m|[m [33m50b339e[m Adds missing semi-colon
+[32m|[m * [1;33m|[m [33m019f729[m Increase font size in code blocks
+[32m|[m [1;33m|[m[1;33m/[m  
+* [1;33m|[m   [33m8b29339[m Merge pull request #465 from naveenarun/add_goodreads
+[34m|[m[35m\[m [1;33m\[m  
+[34m|[m * [1;33m\[m   [33ma9f950e[m Merge branch 'master' into add_goodreads
+[34m|[m [36m|[m[34m\[m [1;33m\[m  
+[34m|[m [36m|[m[34m/[m [1;33m/[m  
+[34m|[m[34m/[m[36m|[m [1;33m|[m   
+* [36m|[m [1;33m|[m   [33md2b93d1[m Merge pull request #756 from Mohit-15/master
+[1;32m|[m[1;33m\[m [36m\[m [1;33m\[m  
+[1;32m|[m * [36m|[m [1;33m|[m [33m7389b16[m add medium profile
+[1;32m|[m * [36m|[m [1;33m|[m [33m50d0b90[m add medium icon
+[1;32m|[m [1;33m|[m [36m|[m[1;33m/[m  
+[1;32m|[m [1;33m|[m[1;33m/[m[36m|[m   
+* [1;33m|[m [36m|[m   [33mdfc3ce3[m Merge pull request #1183 from sonnyarora/add-google-analytics-4
+[1;34m|[m[1;35m\[m [1;33m\[m [36m\[m  
+[1;34m|[m * [1;33m|[m [36m|[m [33m96d1b6e[m Add Google Analytics 4 Support
+[1;34m|[m [1;33m|[m[1;33m/[m [36m/[m  
+* [1;33m|[m [36m|[m   [33maa9ed61[m Merge pull request #968 from amyzlc/patch-1
+[1;36m|[m[31m\[m [1;33m\[m [36m\[m  
+[1;36m|[m * [1;33m|[m [36m|[m [33m794128d[m Adding pronouns field to author profile
+[1;36m|[m [1;33m|[m[1;33m/[m [36m/[m  
+* [1;33m|[m [36m|[m [33m1aef8d5[m Edit readme
+* [1;33m|[m [36m|[m [33mb17523a[m #1906
+* [1;33m|[m [36m|[m [33mbb07999[m RM minimal mistakes changelog
+* [1;33m|[m [36m|[m [33m555669e[m Update issue templates
+* [1;33m|[m [36m|[m [33mc1a6b4e[m #456 Use real Google Scholar link as an example
+* [1;33m|[m [36m|[m   [33mf34f40e[m Merge pull request #1656 from bhavberi/patch-1
+[32m|[m[33m\[m [1;33m\[m [36m\[m  
+[32m|[m * [1;33m|[m [36m|[m [33md96db15[m fix: Remove deprecated JavaScript to avoid load error from 404 page
+[32m|[m [1;33m|[m[1;33m/[m [36m/[m  
+* [1;33m|[m [36m|[m   [33ma053bd7[m Merge pull request #925 from bp-high/patch-1
+[34m|[m[35m\[m [1;33m\[m [36m\[m  
+[34m|[m * [1;33m|[m [36m|[m [33m4a5826c[m Resolve Google Scholar link not displayed
+[34m|[m [1;33m|[m[1;33m/[m [36m/[m  
+* [1;33m|[m [36m|[m [33mcd56a5b[m Start updating the README
+* [1;33m|[m [36m|[m [33m46ffad6[m #1902 RM excerpt in pages
+* [1;33m|[m [36m|[m [33m7578915[m + webrick to gem file
+* [1;33m|[m [36m|[m [33m55222a2[m Update files to be ignored
+[1;33m|[m[1;33m/[m [36m/[m  
+[1;33m|[m * [33m61b4169[m add goodreads to site
+[1;33m|[m[1;33m/[m  
+*   [33m25c30de[m Merge pull request #241 from cifkao/master
+[36m|[m[1;31m\[m  
+[36m|[m * [33m0ef09f1[m Fix icons
+[36m|[m[36m/[m  
+*   [33m06c8b22[m Merge pull request #183 from kc9jud/bio-image-fix
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m720256a[m sidebar: Let avatar height vary
+* [1;33m|[m   [33ma1706ad[m Merge pull request #220 from ningyuansg/fix-local-bundle-runtime
+[1;34m|[m[1;35m\[m [1;33m\[m  
+[1;34m|[m * [1;33m|[m [33m5a8a8db[m Add vendor as excluded dir
+[1;34m|[m[1;34m/[m [1;33m/[m  
+* [1;33m|[m   [33m65a22d1[m Merge pull request #213 from luismmontilla/master
+[1;36m|[m[31m\[m [1;33m\[m  
+[1;36m|[m * [1;33m|[m [33mde3cd9e[m added impactstory icon
+[1;36m|[m * [1;33m|[m [33m3155684[m added impactstory field
+[1;36m|[m[1;36m/[m [1;33m/[m  
+* [1;33m|[m   [33m83b7060[m Merge pull request #207 from tlcaputi/master
+[32m|[m[33m\[m [1;33m\[m  
+[32m|[m * [1;33m|[m [33m287ceb1[m add pubmed icon
+[32m|[m[32m/[m [1;33m/[m  
+* [1;33m|[m   [33m3dc2eb6[m Merge pull request #197 from mborowczak/pubsfrombib
+[34m|[m[35m\[m [1;33m\[m  
+[34m|[m * [1;33m|[m [33m642ab57[m Ability to generate publications from bibtex files.
+[34m|[m [1;33m|[m[1;33m/[m  
+* [1;33m|[m   [33m8908e15[m Merge pull request #203 from bxie/social-share
+[1;33m|[m[1;31m\[m [1;33m\[m  
+[1;33m|[m [1;31m|[m[1;33m/[m  
+[1;33m|[m[1;33m/[m[1;31m|[m   
+[1;33m|[m * [33mbc3fa09[m fixed fa icons in social share, removed G+
+[1;33m|[m[1;33m/[m  
+*   [33m072b90b[m Merge pull request #166 from xingjunm/master
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m4b75e97[m update _sass/_archive.scss to highlight hyperlinks
+* [1;33m|[m [33m37b6a69[m fix researchgate to use full url, per example in _config.yml
+* [1;33m|[m [33m153b3b9[m make researchgate field blank by default
+* [1;33m|[m   [33mfcd845a[m Merge pull request #176 from jacobtfisher/academicpages_master
+[1;34m|[m[1;35m\[m [1;33m\[m  
+[1;34m|[m * [1;33m|[m [33mcbf896d[m updated fontawesome
+[1;34m|[m[1;34m/[m [1;33m/[m  
+* [1;33m|[m   [33m7a14977[m Merge pull request #172 from aki-nishimura/master
+[1;36m|[m[31m\[m [1;33m\[m  
+[1;36m|[m * [1;33m|[m [33m3207fc3[m Address a deprecation warning.
+[1;36m|[m * [1;33m|[m [33m6dea417[m Fix a bug: Liquid does not allow parenthesis for logical operations.
+[1;36m|[m * [1;33m|[m [33m900a7f4[m Address future deprecation warnings.
+[1;36m|[m[1;36m/[m [1;33m/[m  
+* [1;33m|[m [33m79983e8[m remove transparency on hover from sidebar image
+* [1;33m|[m [33m5055f27[m make links underlined by default
+* [1;33m|[m [33ma78329f[m add conditional for talkmap
+* [1;33m|[m [33m1a53c7c[m add talkmap_link option
+* [1;33m|[m   [33m15a32f0[m Merge pull request #149 from Omniscimus/patch-1
+[1;33m|[m[33m\[m [1;33m\[m  
+[1;33m|[m [33m|[m[1;33m/[m  
+[1;33m|[m[1;33m/[m[33m|[m   
+[1;33m|[m * [33m0bb15a3[m Remove lonely script closing tag
+[1;33m|[m[1;33m/[m  
+*   [33m62b9a9a[m Merge pull request #133 from qaisjp/patch-1
+[34m|[m[35m\[m  
+[34m|[m * [33mb3ce2b9[m Fix typo in example cv
+[34m|[m[34m/[m  
+* [33mcfd2365[m Create 2199-01-01-future-post.md
+* [33m7ee9ec3[m add future:true
+*   [33mb428556[m Merge pull request #110 from yimingzhaomath/master
+[36m|[m[1;31m\[m  
+[36m|[m * [33m8068eb5[m increase body padding
+[36m|[m * [33m35673c4[m increased body padding
+[36m|[m * [33mf24d794[m fixed sticky footer
+[36m|[m * [33mf6c7666[m added body padding to avoid footer overlap
+[36m|[m * [33m71e2fe2[m added sticky footer
+[36m|[m * [33m5e4d37c[m added sticky footer
+[36m|[m * [33m88a56a1[m added sticky footer
+* [1;31m|[m   [33m63f279a[m Merge pull request #98 from jacksonpradolima/master
+[1;32m|[m[1;33m\[m [1;31m\[m  
+[1;32m|[m * [1;31m|[m [33m3378fe5[m Update ui-text.yml - Minor revision - Portuguese
+* [1;33m|[m [1;31m|[m   [33m1606868[m Merge pull request #125 from zuoxingdong/patch-2
+[1;31m|[m[1;35m\[m [1;33m\[m [1;31m\[m  
+[1;31m|[m [1;35m|[m[1;31m_[m[1;33m|[m[1;31m/[m  
+[1;31m|[m[1;31m/[m[1;35m|[m [1;33m|[m   
+[1;31m|[m * [1;33m|[m [33m89be021[m Update custom.html
+[1;31m|[m[1;31m/[m [1;33m/[m  
+* [1;33m|[m [33m0513790[m add Gemfile.lock notice
+* [1;33m|[m [33m32e0174[m Delete Gemfile.lock
+* [1;33m|[m [33m4a7a0cc[m fix nokogiri vulnerability
+[1;33m|[m[1;33m/[m  
+*   [33me21bd4b[m Merge pull request #81 from zuoxingdong/patch-1
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m119ab3e[m Support MathJax for rendering equations.
+[1;36m|[m[1;36m/[m  
+* [33mcf0862c[m update nokogiri to >=1.8.2
+* [33me2693cb[m update nokogiri version
+*   [33ma9791a5[m Merge pull request #75 from Carreau/liveserve
+[32m|[m[33m\[m  
+[32m|[m * [33m1d476d4[m implement liveserve
+[32m|[m[32m/[m  
+* [33m9aec92b[m disable read more links by default
+*   [33m78167c4[m Merge pull request #29 from academicpages/read-more
+[34m|[m[35m\[m  
+[34m|[m * [33m14bf751[m add support for "read more" in excerpts, configure in _config.yml
+* [35m|[m [33m2cdc88b[m Merge pull request #28 from academicpages/read-more
+[36m|[m[35m\[m[35m|[m 
+[36m|[m * [33md0a0163[m post is not a type, show "read more" for all w/ excerpt
+* [1;31m|[m [33m0c8d65e[m Merge pull request #27 from academicpages/read-more
+[1;32m|[m[1;31m\[m[1;31m|[m 
+[1;32m|[m * [33m55310c9[m add "read more" to post excerpts
+[1;32m|[m[1;32m/[m  
+* [33m8f859e7[m add info about tagging code changes
+* [33mb001699[m replace manual changelog with issues
+*   [33mc685f78[m Merge pull request #25 from academicpages/fix-teaching
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33md06c8f5[m type is publications, not publication
+[1;34m|[m * [33m377f14c[m fix bug in displaying publication info
+* [1;35m|[m [33m2683a44[m Merge pull request #24 from academicpages/fix-teaching
+[1;36m|[m[1;35m\[m[1;35m|[m 
+[1;36m|[m * [33m1dd9162[m fix bug w/ blog posts added by previous teaching bugfix
+* [31m|[m [33m64a6fd4[m Merge pull request #23 from academicpages/fix-teaching
+[32m|[m[31m\[m[31m|[m 
+[32m|[m * [33m2e86aa6[m fix bug w/ teaching info not appearing in collection page
+* [33m|[m [33m7bf69d7[m Merge pull request #22 from academicpages/fix-teaching
+[34m|[m[33m\[m[33m|[m 
+[34m|[m * [33m3298fd2[m fix teaching "Published in" bug
+[34m|[m[34m/[m  
+* [33mde3dc3c[m image back to 175%
+* [33mf757274[m patch from mmistakes/minimal-mistakes to fix jitter
+* [33m6a1cb4f[m update local serve instructions
+* [33m8afd47d[m remove jekyll-sitemap pull from github master
+* [33m942a70d[m Add local install instructions
+*   [33mf760568[m Merge pull request #18 from a-paxton/add_academicons_pr
+[36m|[m[1;31m\[m  
+[36m|[m * [33m0e8112a[m Fix Academicons sidebar spacing
+* [1;31m|[m [33m29b95e6[m Merge pull request #17 from a-paxton/add_academicons_pr
+[1;32m|[m[1;31m\[m[1;31m|[m 
+[1;32m|[m * [33m1c3f60a[m Add Academicons
+[1;32m|[m[1;32m/[m  
+* [33mbac6873[m update to reflect completed documentation
+* [33m6807fe5[m add markdown generator info and document fix
+* [33m4528221[m update talks and publications scripts, data, and notebook for markdown generator
+*   [33m879053a[m Merge branch 'master' of https://github.com/academicpages/academicpages.github.io
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33m1e0d09c[m restructure
+* [1;35m|[m [33m81c8f1a[m modify examples to reflect output of new markdown_generator scripts
+[1;35m|[m[1;35m/[m  
+* [33m053bd13[m update readme to reflect updated publication files
+* [33ma145cbd[m update publication scripts, fix bugs and add documentation
+* [33m82450fc[m fix link typo
+* [33m96ab622[m add sentence to intro explaining github pages
+* [33mdcdd459[m add bug fix section
+* [33m34bd699[m Fix google scholar link, per Issue #4
+* [33m71adb2a[m update docs to reflect earlier change from talk_type: to talk:
+* [33m6c89bc1[m update notebooks to support format used in academicpages
+* [33mb21eb3b[m generator was using collection:publication instead of publications
+*   [33mfa02c8f[m Merge pull request #4 from hainesr/master
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33m54a3678[m Ignore the _site/ directory for local builds.
+[1;36m|[m[1;36m/[m  
+* [33mb8d2421[m Create CONTRIBUTING.md
+* [33mff85650[m change breakpoints
+* [33m98afdb9[m Update _variables.scss
+* [33m252e967[m update breakpoints from mmistakes
+* [33m2ff79dc[m Update _variables.scss
+* [33m624edde[m fix breakpoint to allow more fluid spacing
+* [33mca8a7e3[m add markdown generator
+* [33mc5b937c[m Update readme.md
+* [33m437e698[m Update readme.md
+* [33m12fa9f3[m move markdown generator from staeiou/staeiou.github.io
+* [33m5061b29[m Create readme.md
+* [33m39916ee[m tweak intro paragraph
+* [33mf25b2b3[m Update README.md
+* [33mfd01caa[m Update cv.md
+* [33m21cbae0[m expand intro
+* [33m9303bb2[m fix image size
+* [33m63a4648[m Add files via upload
+* [33m34e06cd[m height for image
+* [33mb701d23[m tweak intro
+* [33m9762f57[m add diff for getorg-testacct
+* [33m6dacde2[m no spacing
+* [33m2291a38[m expand getting started
+* [33m151589f[m 2px spacing
+* [33m810d5ba[m add more instructions
+* [33mdf3130b[m redirects from resume
+* [33m862c3e2[m fix warning, patch from mmistakes
+* [33mf94c6fc[m fix warning, patch from mmistakes
+* [33m70c9263[m fix warning, patch from mmistakes
+* [33m365b358[m rollback config changes
+* [33mb178996[m 0px height
+* [33me183df0[m 1px height
+* [33mb98f73d[m height 2px
+* [33md3d2a4b[m add comments and make it more usable
+* [33mdd5a5f3[m Update README.md
+* [33m79bae9b[m 5px height
+* [33m7cef94b[m test for 0px height
+* [33m75747fe[m remove list item
+* [33mb939afe[m add list item
+* [33m8fa6d01[m expand intro and getting started
+* [33md5b1506[m expand intro on content vs. form
+* [33m6b6a554[m add list items
+* [33mc4852fa[m make into list item
+* [33m2e0c950[m make into list
+* [33m0008f07[m liquid variables are called by {{ site.var }}
+* [33mf1ac900[m fix variable in liquid
+* [33m7ecdaab[m use variable for section spacing
+* [33m3982f2b[m use p instead of br for spacing
+* [33md9ab503[m moar spacing
+* [33mf2a856c[m add more spacing between sections
+* [33m3f8c56c[m remove comment, can't have liquid even in HTML comments
+* [33m6550696[m Update cv.md
+* [33ma4b86d6[m Update cv.md
+* [33m908b6ec[m remove <br/>s between sections
+* [33mdd89f5c[m remove read time
+* [33mede7585[m make size h3 to match articles
+* [33mbe09d18[m move header to title
+* [33m280e3de[m update description
+* [33m5f63190[m Update README.md
+* [33m8104dc0[m Update 2015-spring-teaching-2.md
+* [33m11f35a4[m Update _config.yml
+* [33mbb3b89d[m YAML type to talk_type
+* [33mdbc74ec[m fix teaching layout
+* [33mda2de11[m more spacing
+* [33m00aabf0[m <br/> spacing
+* [33ma95f159[m more spacing
+* [33m82497bb[m spacing between pubs, talks, teaching
+* [33md752b2f[m remove date
+* [33m4b14bc8[m rollback to original from staeiou.github.io
+* [33mccdc189[m put description back, h3 font for citation
+* [33mda051ad[m h4 font size for citation
+* [33me6de91e[m cleanup, make h2 font size, remove date
+* [33mf4ec60f[m ugh, it was just an unclosed </p>
+* [33m545f477[m Update cv.md
+* [33m5b51c36[m add {::nomarkdown}
+* [33mdfa5a09[m Rename cv.html to cv.md
+* [33mc11829d[m Rename cv.md to cv.html
+* [33m8e1ae0b[m Update cv.md
+* [33mbb68cd7[m fix spacing
+* [33m35651b8[m Update cv.md
+* [33mab5358c[m try to fix based on staeiou.github.io
+* [33mc0c6623[m add link to personal site
+* [33m600f52c[m fix link
+* [33m068b692[m Update about.md
+* [33m31c4ff4[m Update about.md
+* [33m856ef28[m add more info section
+* [33m7148025[m Update about.md
+* [33md89e426[m .py version of talkmap.ipynb
+* [33m5ff3d62[m Update about.md
+* [33m38a7feb[m update headings
+* [33me81e97d[m Update about.md
+* [33m18a2a24[m fix spacing
+* [33m45d9baf[m Update about.md
+* [33m39db4a7[m Update about.md
+* [33m974524f[m Update about.md
+* [33m0d9d50a[m Add files via upload
+* [33mff5d6a3[m Update about.md
+* [33m4a9b68c[m Delete talks.tsv
+* [33m48dfd85[m Delete talks.ipynb
+* [33m0c70f77[m Delete publications.ipynb
+* [33m7bbd4ed[m Delete publications.tsv
+* [33md0705f4[m Jupyter notebooks for generating markdown files from TSVs
+* [33m572c07a[m Create talks.tsv
+* [33m7713e6f[m Create publications.tsv
+* [33m9cf8aad[m Update _config.yml
+* [33m767666d[m Update README.md
+* [33ma43cb73[m Update README.md
+* [33md6e4186[m Update about.md
+* [33m4c005de[m Update _variables.scss
+* [33m8b376ee[m Update _variables.scss
+* [33m621448c[m Update _variables.scss
+* [33me31856d[m Update _variables.scss
+* [33maeac2e3[m Update _variables.scss
+* [33m0905bb4[m Update _variables.scss
+* [33m3b40d73[m Update _variables.scss
+* [33m5a03b8d[m Update _variables.scss
+* [33mf3cc6ab[m Update _variables.scss
+* [33m3dcfa03[m Update _variables.scss
+* [33m0d0296b[m copy from mmistakes/minimal-mistakes:gh-pages
+* [33mbe1fe9a[m Update _variables.scss
+* [33m6129b29[m Update _variables.scss
+* [33m68a5cfb[m susy debug on
+* [33mf1668b3[m Update _variables.scss
+* [33m58d7d89[m Update _variables.scss
+* [33m6129d2a[m Update portfolio-2.html
+* [33m4f519af[m Update portfolio-1.md
+* [33mc0746d7[m Delete keybase.txt
+* [33m242e792[m remove _site
+* [33m9ef386c[m remove google ads
+* [33m8ed2cde[m talk_type and teaching_type to just 'type'
+* [33m1148eef[m add image
+* [33m4ce94bb[m add image
+* [33mba6c25f[m rename portfolio files, remove date
+* [33m4bfbb6d[m fix page/post conflation
+* [33m2501cb0[m more date defaults
+* [33m91915b8[m move talkmap.ipynb out of _talks
+* [33m768e817[m add date defaults
+* [33m8cd69f5[m fixed?
+* [33ma141155[m wtf unless
+* [33m4f093ea[m try to fix control structure
+* [33mc85da7f[m defaults for dates
+* [33ma1d1753[m try to revert to last working version
+* [33m9c6249e[m revert
+* [33m44218fd[m Update single.html
+* [33m3f51a5c[m Update single.html
+* [33md926927[m Update archive-single.html
+* [33m3f8a2e9[m Update single.html
+* [33m41396b9[m Update 2015-10-01-paper-title-number-3.md
+* [33maed29ec[m Update 2010-10-01-paper-title-number-2.md
+* [33m459ae78[m Update 2009-10-01-paper-title-number-1.md
+* [33mb44a3c1[m Update 2009-10-01-paper-title-number-1.md
+* [33md831202[m Update talkmap.html
+* [33ma3090ea[m Delete talkmap-checkpoint.ipynb
+* [33m5137823[m add talkmap info
+* [33m77cd358[m add link to talkmap
+* [33m7f5de6b[m remove basepath include
+*   [33mf9f2019[m Merge branch 'master' of https://github.com/academicpages/academicpages.github.io
+[32m|[m[33m\[m  
+[32m|[m * [33me0adab7[m Update about.md
+[32m|[m * [33mc1816d9[m Update markdown.md
+[32m|[m * [33m862235c[m Update markdown.md
+[32m|[m * [33m46e3cc0[m Update markdown.md
+[32m|[m * [33m73167b1[m Update footer.html
+[32m|[m * [33m8942d1e[m Update 2015-10-01-paper-title-number-3.md
+[32m|[m * [33mdef59f9[m Update 2010-10-01-paper-title-number-2.md
+[32m|[m * [33ma5a4d11[m Update 2009-10-01-paper-title-number-1.md
+[32m|[m * [33m77e327f[m Update archive-single.html
+[32m|[m * [33m519b5b7[m Update archive-single.html
+[32m|[m * [33ma6d60d6[m Update archive-single.html
+[32m|[m * [33m4e89464[m Update archive-single.html
+[32m|[m * [33m4c1e5fa[m Update archive-single.html
+[32m|[m * [33mc6bb6c5[m Update archive-single.html
+* [33m|[m [33mecec2f3[m add talkmap files
+* [33m|[m [33me787ccc[m add Jupyter notebook for generating talkmap
+* [33m|[m [33m4924963[m add real location
+[33m|[m[33m/[m  
+* [33m6073103[m Update archive-single.html
+* [33m8074731[m Update archive-single.html
+* [33m58433ef[m Update archive-single.html
+* [33mf6f7b6f[m Update archive-single.html
+* [33mbb36eb7[m Update archive-single.html
+* [33m5bc5647[m Update markdown.md
+* [33m0c5e357[m Update publications.md
+* [33m8242149[m Update publications.md
+* [33maa02d6c[m Update publications.md
+* [33m685f4f3[m Update cv.md
+* [33m366c17b[m Update and rename articles.html to publications.md
+* [33m2f01eb0[m Update markdown.md
+* [33mce2abbe[m Update 2010-10-01-paper-title-number-2.md
+* [33m17a64d4[m Update 2015-10-01-paper-title-number-3.md
+* [33m2312c3b[m Update 2010-10-01-paper-title-number-2.md
+* [33mc009cb5[m Update 2009-10-01-paper-title-number-1.md
+* [33m928c194[m Update 2009-10-01-paper-title-number-1.md
+* [33ma53ef31[m rename publications to files
+* [33ma1997eb[m category->collection
+* [33m7758165[m category->collection
+* [33m10a58df[m category->collections
+* [33m23c35d8[m Update navigation.yml
+* [33md68618b[m Create about.md
+* [33mf035f76[m Update and rename about.md to markdown.md
+* [33m7c30704[m remove basepath
+* [33mff2e3b8[m update
+* [33m7d7524f[m update privacy policy
+* [33m8b20240[m remove old stuart files
+* [33mcbb8b8f[m add generic examples
+* [33m57315a6[m remove stuart's old portfolio items
+* [33m51a48a8[m refactor and genericize items
+* [33mcd7d3fb[m generic papers
+* [33mcb3c173[m remove images
+* [33m3d71d62[m more generic config
+* [33me0fb53d[m more links in config
+* [33mae54a77[m move cv.html to cv.md, make generic
+* [33m97cf0c4[m update navbar
+* [33m213965c[m add profile image
+* [33m7d95341[m more markdown features
+* [33me699008[m genericize about
+* [33ma6e4082[m remove some articles, update config to be https
+* [33mf7a375d[m rename expressions to portfolio
+* [33m5380dc1[m remove staeiou data
+* [33m8a0b802[m remove CNAME
+* [33m3dfd6c6[m remove pdfs
+* [33m98fc550[m clone from staeiou.github.io
